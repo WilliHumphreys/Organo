@@ -6,10 +6,10 @@ import './Formulario.css'
 
 const Formulario = (props) => {
 
-    const [nome, setNome] = useState('')
-    const [cargo, setCargo] = useState('')
-    const [imagem, setImagem] = useState('')
-    const [time, setTime] = useState('')
+    var [nome, setNome] = useState('')
+    var [cargo, setCargo] = useState('')
+    var [imagem, setImagem] = useState('')
+    var [time, setTime] = useState('')
 
     const aoSalvar = (event) => {
         event.preventDefault()
@@ -19,7 +19,6 @@ const Formulario = (props) => {
             imagem,
             time
         })
-        console.log("Form foi submetido =>", nome, cargo, imagem, time)
     }
 
     return (
