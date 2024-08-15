@@ -8,6 +8,6 @@ const Time = (props) => {
             <h3 style={{ borderColor: props.corPrimaria }}>{props.nome}</h3>
         </section>
     )
-}
+} 
 
 export default Time
